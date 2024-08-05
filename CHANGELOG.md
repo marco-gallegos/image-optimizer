@@ -1,4 +1,4 @@
-# 1.4.0 (2024-08-05)
+## [1.4.1](https://github.com/antonreshetov/image-optimizer/compare/d568291a9705f5d2b6bea00bcbf683dd0157a27e...v1.4.1) (2024-08-05)
 
 
 ### Bug Fixes
