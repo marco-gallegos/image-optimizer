@@ -1,4 +1,4 @@
-## [1.4.1](https://github.com/antonreshetov/image-optimizer/compare/d568291a9705f5d2b6bea00bcbf683dd0157a27e...v1.4.1) (2024-08-05)
+## 1.4.1 (2024-08-05)
 
 
 ### Bug Fixes
@@ -16,6 +16,7 @@
 * add gif support ([#3](https://github.com/antonreshetov/image-optimizer/issues/3)) ([e697da3](https://github.com/antonreshetov/image-optimizer/commit/e697da3603344f9064cf062601c81c0872851664))
 * **main:** open images from dialog menu ([#7](https://github.com/antonreshetov/image-optimizer/issues/7)) ([e591d35](https://github.com/antonreshetov/image-optimizer/commit/e591d3597e2c58ccbd3790c3911ebd5100d2a05d))
 * option to convert jpg/png to webp ([#24](https://github.com/antonreshetov/image-optimizer/issues/24)) ([37caeed](https://github.com/antonreshetov/image-optimizer/commit/37caeedd09b8eb9b2a89819d449ac12585d7c378))
+* **packages:** new bumpp version ([e321f48](https://github.com/antonreshetov/image-optimizer/commit/e321f4812071c308bc3f7adb64a681f9e3b5c1d8))
 
 
 
