@@ -7,11 +7,21 @@ export default {
   directories: {
     output: path.resolve(__dirname, '../../../dist')
   },
+  linux: {
+    desktop: {
+      StartupNotify: 'false',
+      Encoding: 'UTF-8',
+      MimeType: 'x-scheme-handler/deeplink'
+    },
+    target: ['AppImage']
+  },
   nsis: {
-    oneClick: false,
-    perMachine: false,
-    allowToChangeInstallationDirectory: true,
-    shortcutName: 'Image Optimizer'
+    // oneClick: false,
+    // perMachine: false,
+    // allowToChangeInstallationDirectory: true,
+    shortcutName: 'Image Optimizer',
+    deleteAppDataOnUninstall: true,
+    include: 'installer/win/nsis-installer.nsh'
   },
   mac: {
     target: [
@@ -21,9 +31,6 @@ export default {
   },
   win: {
     target: 'nsis'
-  },
-  linux: {
-    target: ['snap']
   },
   extraMetadata: {
     main: 'src/main/index.js'
