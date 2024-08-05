@@ -224,7 +224,7 @@ export class ImageOptimizer {
               reject(err)
             }
 
-            const { data } = svg.optimize(buffer)
+            const { data } = svg.optimize(buffer) as any // TODO:debt should be as OptimizedSvg
             writeFile(output, data, err => {
               if (err) console.log(err)
 
