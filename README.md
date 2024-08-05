@@ -44,6 +44,13 @@ yarn dev
 yarn build
 ```
 
+## TO-DO
+
+- [ ] node version
+- [ ] packages versions
+- [ ] "skipLibCheck": true is potentially  a overkill, should just exclude node_modules folder?
+- [ ] mermaid?
+
 ## Related
 - [Electron Vue Vite Boilerplate](https://github.com/antonreshetov/electron-vue-vite-boilerplate)
 
