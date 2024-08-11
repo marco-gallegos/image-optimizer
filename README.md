@@ -20,17 +20,19 @@ A free and open source tool for optimizing images and vector graphics.
 
 
 ## Core libs
- - [mozjpeg](https://github.com/mozilla/mozjpeg)
- - [pngquant](https://pngquant.org)
- - [cwebp](https://developers.google.com/speed/webp/docs/cwebp)
- - [gifsicle](https://www.lcdf.org/gifsicle/)
- - [SVGO](https://github.com/svg/svgo)
+
+- [mozjpeg](https://github.com/mozilla/mozjpeg)
+- [pngquant](https://pngquant.org)
+- [cwebp](https://developers.google.com/speed/webp/docs/cwebp)
+- [gifsicle](https://www.lcdf.org/gifsicle/)
+- [SVGO](https://github.com/svg/svgo)
 
 ## Download and Installation on macOS
 
 Go to [Releases](https://github.com/antonreshetov/image-optimizer/releases) get the latest build, download and install.
 
 ## Development
+
 ```bash
 # install dependencies
 yarn
@@ -39,6 +41,7 @@ yarn dev
 ```
 
 ## Build
+
 ```bash
 # build application for production
 yarn build
@@ -53,6 +56,7 @@ yarn build
 - "skipLibCheck": true is potentially overkill, should just exclude node_modules folder?
 
 ## Related
+
 - [Electron Vue Vite Boilerplate](https://github.com/antonreshetov/electron-vue-vite-boilerplate)
 
 Copyright (c) 2021-present, Anton Reshetov.
