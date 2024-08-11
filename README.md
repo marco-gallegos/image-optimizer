@@ -44,12 +44,13 @@ yarn dev
 yarn build
 ```
 
-## TO-DO
+## Next updates
 
-- [ ] node version
-- [ ] packages versions
-- [ ] "skipLibCheck": true is potentially  a overkill, should just exclude node_modules folder?
-- [ ] mermaid?
+- [ ] node version to 20
+- packages versions
+  - electron -> should work at least on 29.x
+  - cwebp-bin -> is stuck en current because we are using cjs as build
+- "skipLibCheck": true is potentially overkill, should just exclude node_modules folder?
 
 ## Related
 - [Electron Vue Vite Boilerplate](https://github.com/antonreshetov/electron-vue-vite-boilerplate)
