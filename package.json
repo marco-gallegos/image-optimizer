@@ -45,7 +45,7 @@
   "devDependencies": {
     "@commitlint/cli": "^16.0.1",
     "@commitlint/config-conventional": "^16.0.0",
-    "@types/canvas-confetti": "^1.4.2",
+    "@types/canvas-confetti": "^1.6.4",
     "@types/estree": "^0.0.50",
     "@types/gifsicle": "^5.2.0",
     "@types/mime-types": "^2.1.1",
