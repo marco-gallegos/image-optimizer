@@ -49,6 +49,8 @@ yarn build
 
 ## Next updates
 
+- electron
+  - target is 22.3.24 because on this version electron has high vulnerabilities
 - [ ] node version to 20
 - packages versions
   - electron -> should work at least on 29.x
