@@ -9,3 +9,13 @@ src/renderer/types/components.d.ts
 .DS_Store
 # Snyk
 .dccache
+
+# yarnd config to not zero installs
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
